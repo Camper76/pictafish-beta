@@ -1,0 +1,1399 @@
+@font-face {
+  font-family: 'Bold';
+  src: url(Montserrat-Bold.otf);
+}
+@font-face {
+  font-family: 'Medium';
+  src: url(Montserrat-Medium.otf);
+}
+@font-face {
+  font-family: 'SemiBold';
+  src: url(Montserrat-SemiBold.otf);
+}
+@font-face {
+  font-family: 'Regular';
+  src: url(Montserrat-Regular.otf);
+}
+
+#wrapper{
+  margin: auto;
+  width: 100%;
+}
+
+#bg-1, #bg-2, #bg-3, #bg-4, #bg-5{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#bg-1{
+  left: 0;
+  top: ;
+}
+
+#page-1, #page-2, #page-3, #page-4, #page-5{
+  width: 100%;
+  max-width: 98.5%;
+}
+#page-1{
+  height: 700px;
+}
+#page-2{
+  height: 695px;
+}
+#page-3{
+  height: 695px;
+}
+#page-4{
+  height: 680px;
+}
+#page-5{
+  height: 695px;
+}
+
+
+#page-1 .btn, #page-3 .btn, #page-4 .btn, #page-5 .btn{
+  height: 50px;
+  width: 280px;
+  border: 3px solid transparent;
+  border-radius: 30px;
+  font-family: SemiBold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: .550rem .75rem;
+}
+#page-1 .btn-outline-primary, #page-3 .btn-outline-primary, #page-4 .btn-outline-primary, #page-5 .btn-outline-primary{
+ color: #1F9DF4;
+ border-color: #1F9DF4;
+ transition: all .3s;
+}
+#page-1 .btn-outline-primary:hover, #page-3 .btn-outline-primary:hover, #page-4 .btn-outline-primary:hover, #page-5 .btn-outline-primary:hover{
+ background-color: #1F9DF4;
+ border-color: #1F9DF4;
+ color: white;
+}
+
+
+#page-1 #lottie, #page-3 #lottie, #page-4 #lottie, #page-5 #lottie, #tentang #lottie{
+  background-color: transparent;
+}
+
+
+h1{
+  font-family: Bold;
+  font-size: 36px;
+  color: #1F9DF4;
+}
+p{
+  font-family: SemiBold;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 0.6px;
+  line-height: 1.5;
+}
+a{
+  text-decoration: none;
+}
+
+
+/*-----Loading-----*/
+
+
+/*-----Page 1-----*/
+#page-1 video{
+  margin: 34% 2% 0% 5%;
+  position: absolute;
+  z-index: 2;
+}
+#page-1 video{
+  width: 550px;
+  height: auto;
+  visibility: visible;
+}
+
+#page-1 #motion-1{
+  position: absolute;
+  left: 0;
+  top: 2%;
+  width: 110%;
+  z-index: 1;
+}
+
+#page-1 .col-lg-6 h1{
+  padding: 35% 5% 1% 5%;
+}
+#page-1 .col-lg-6 p{
+padding: 2% 15% 2% 5%;
+}
+#page-1 .btn{
+  display: block;
+}
+#page-1 a{
+  margin: 2% 5%;
+}
+
+/*-----Page 2-----*/
+#page-2 .card-deck{
+  margin: 0 5%;
+}
+#page-2 .card{
+  background-color: transparent;
+  border: 0px solid transparent;
+}
+#page-2 .card-body{
+  padding: 15% 0%;
+}
+#page-2 .card-text{
+  font-family: Medium;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+}
+
+#page-2 h1{
+  padding: 10% 0 3% 0;
+}
+#page-2 #card-1 .card-img-top{
+  width: 100%;
+  margin: 50% 0% 0% 0%;
+  transition: all .3s;
+}
+#page-2 #card-1:hover .card-img-top{
+  width: 90%;
+  margin: 50% 0% 0% 5%;
+}
+
+#page-2 #card-2 .card-img-top{
+  width: 62.5%;
+  margin: 0% 18.75% 0% 18.75%;
+  transition: all .3s;
+}
+#page-2 #card-2:hover .card-img-top{
+  width: 52.5%;
+  margin: 5% 18.75% 5% 23.75%;
+}
+
+#page-2 #card-3 .card-img-top{
+  width: 87.5%;
+  margin: 35.5% 6.25% 0% 6.25%;
+  transition: all .3s;
+}
+#page-2 #card-3:hover .card-img-top{
+  width: 77.5%;
+  margin: 35.5% 6.25% 0% 11.25%;
+}
+
+#page-2 #card-4 .card-img-top{
+  width: 75%;
+  margin: 19.5% 12.5% 5% 12.5%;
+  transition: all .3s;
+}
+#page-2 #card-4:hover .card-img-top{
+  width: 65%;
+  margin: 19.5% 12.5% 5% 17.5%;
+}
+
+#page-2 #card-5 .card-img-top{
+  width: 87.5%;
+  margin: 22.5% 6.25% 5% 7.5%;
+  transition: all .3s;
+}
+#page-2 #card-5:hover .card-img-top{
+  width: 77.5%;
+  margin: 22.5% 6.25% 5% 12.5%;
+}
+
+
+/*-----Page 3-----*/
+#page-3 h1{
+  padding: 35% 0% 0% 20%;
+  margin: auto;
+}
+#page-3 p{
+  padding: 2% 15% 0% 20%;
+  margin: auto;
+}
+#page-3 a{
+  margin: 7% 0% 10% 20%;
+}
+
+#page-3 #motion-3{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 3%;
+}
+
+/*-----Page 4-----*/
+#page-4 h1{
+  padding: 35% 0% 0% 20%;
+  margin: auto;
+}
+#page-4 p{
+  padding: 2% 10% 0% 20%;
+  margin: auto;
+}
+#page-4 a{
+  margin: 7% 0% 10% 20%;
+}
+
+#page-4 #motion-4{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/*-----Page 5-----*/
+#page-5 h1{
+  padding: 35% 30% 0% 20%;
+  margin: auto;
+}
+#page-5 p{
+  padding: 2% 30% 0% 20%;
+  margin: auto;
+}
+#page-5 a{
+  margin: 7% 0% 10% 20%;
+}
+
+#page-5 #motion-5{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 2.6%;
+}
+
+
+/*-----Navbar-----*/
+.responsive-bar{
+  display: none;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding:1% 5%;
+  box-sizing: border-box;
+  transition: .3s;
+  z-index: 99;
+}
+nav.white{
+  background: #F5F5F5;
+  height: 80px;
+  padding: 10px 50px;
+}
+
+nav .logo{
+  float: left;
+}
+nav .logo img{
+  padding: 8% 0 0 0;
+  width: 70%;
+  transition: .3s;
+}
+nav.white .logo img{
+  padding: 10px 0 0 0;
+}
+
+nav ul{
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li a{
+  line-height: 80px;
+  color: black;
+  padding: 0 10px;
+  margin: 0 0 0 30px;
+  font-family: Bold;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  transition: .3s;
+  text-decoration: none;
+}
+nav.white ul li a{
+  line-height: 65px;
+}
+
+nav ul li a{
+  cursor: pointer;
+}
+nav ul li a:hover{
+  border-bottom: 3px solid #1F9DF4;
+  color: #1F9DF4;
+  text-decoration: none;
+}
+nav.white ul li a:hover{
+  border-bottom: 3px solid #1F9DF4;
+  color: #1F9DF4;
+  text-decoration: none;
+}
+
+/*-----Tentang-----*/
+#tentang .container{
+  padding-top: 15%;
+  padding-bottom: 20%;
+}
+
+#tentang h1{
+  font-size: 42px;
+  font-family: Bold;
+  color: #1F9DF4;
+  margin-bottom: 10%;
+}
+#tentang p{
+  font-size: 16px;
+  font-family: Medium;
+  color: black;
+  text-align: justify;
+}
+#tentang .col-sm-12 #motion-ttg, #tentang .col-md-12 #motion-ttg, #tentang .col-lg-7 #motion-ttg{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 10%;
+}
+
+/*-----Presisi-----*/
+#presisi .container{
+  padding: 10% 0 20% 0;
+}
+#presisi #bg{
+  width: 100%;
+  height:140%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#presisi h1{
+  font-size: 42px;
+  font-family: Bold;
+  color: #1F9DF4;
+  text-align: center;
+}
+#presisi h1{
+  margin-bottom: 2.5%;
+}
+#presisi p{
+  font-size: 16px;
+  font-family: Medium;
+  color: black;
+  text-align: center;
+  line-height: 1.6;
+}
+#presisi #p{
+  margin-bottom: 4%;
+}
+
+#presisi .card-deck{
+  margin:0 5%;
+}
+#presisi .card{
+  background-color: white;
+  border: 0px solid transparent;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+#presisi .card-img-top{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#presisi .card-body{
+  padding: 8% 5%;
+}
+#presisi .card-text{
+  font-family: Bold;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+
+/*-----Konstruksi-----*/
+#konstruksi .container{
+  padding: 10% 0 20% 0;
+}
+
+#konstruksi h1{
+  font-size: 40px;
+  font-family: Bold;
+  color: #1F9DF4;
+  text-align: justify;
+  padding: 20% 0 5% 0;
+}
+#konstruksi p{
+  font-size: 16px;
+  font-family: Medium;
+  color: black;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+#list-1, #list-2, #list-3, #list-4, #list-5{
+  border: 0px solid transparent;
+  border-radius: 20px;
+  align-items: center;
+  box-shadow: 5px 6px 12px rgba(0, 0, 0, 0.2);
+  padding: 2% 1%;
+  margin: 2% 2%;
+}
+#list-1, #list-3, #list-5{
+  background-color: #F5F5F5;
+}
+#list-2, #list-4{
+  background-color: #E6E6E6;
+}
+
+#konstruksi img{
+  max-width: 100%;
+
+}
+#konstruksi h2{
+  font-size: 14px;
+  font-family: Medium;
+  line-height: 1.8;
+  text-align: left;
+}
+#konstruksi h3{
+  font-size: 14px;
+  font-family: Bold;
+  line-height: 1.8;
+}
+ #konstruksi .btn{
+  height: 40px;
+  width: 180px;
+  border: 3px solid transparent;
+  border-radius: 30px;
+  font-family: SemiBold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: .35rem .75rem;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+#konstruksi .btn-outline-primary{
+ background-color: #2E3D9A;
+ border-color: #2E3D9A;
+ color: white;
+ transition: all .3s;
+}
+#konstruksi .btn-outline-primary:hover{
+ background-color: transparent;
+ border-color: #2E3D9A;
+ color: #2E3D9A;
+}
+
+/*-----footer-----*/
+.judulfooter, .isifooter{
+  text-align: left;
+  color: #FFFFFF;
+}
+#footer{
+  margin-top:-8%;
+}
+#footer #bg img{
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+#footer .row{
+  margin-right: auto;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+#footer .row{
+  position: absolute;
+  z-index: 1;
+}
+#footer .row .fot .isifooter{
+  display: block;
+}
+#footer .row .fot img{
+  width: 150px;
+  margin-top: 0px;
+}
+
+#footer #fot1{
+  padding-top: 5%;
+}
+#footer #fot2, #footer #fot3{
+  padding-top: 20%;
+}
+
+#footer a{
+  color: #FFFFFF;
+  transition: color .3s;
+}
+#footer a:hover{
+  color: #1E1E1E;
+  text-decoration: none;
+}
+#footer ul{
+  padding-left: 0;
+}
+#footer .judulfooter{
+  font-size: 14px;
+  font-family: Bold;
+}
+#footer .isifooter{
+  font-size: 14px;
+  font-family: Regular;
+  line-height: 1.7;
+}
+#footer #bold .judulfooter{
+  font-size: 14px;
+  font-family: Bold;
+  padding-bottom: 10px;
+}
+#footer #bold .isifooter{
+  font-family: Bold;
+  line-height: 2.3;
+}
+#footer .isifooter ul li{
+  list-style: none;
+}
+
+
+
+/*-----Responsive Tablet-----*/
+@media (min-width:376px) and (max-width: 768px){
+  #bg-1, #bg-2, #bg-3, #bg-4, #bg-5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  #bg-3, #bg-4, #bg-5{
+    max-height: 900px;
+  }
+  #bg-1{
+    left: 0;
+    top: ;
+  }
+
+  #page-1, #page-2, #page-3, #page-4, #page-5{
+    width: 100%;
+    height: auto;
+    max-width: 98.5%;
+  }
+  #page-3, #page-4, #page-5{
+    height: 900px;
+  }
+
+  #page-1, #page-2, #page-3, #page-4, #page-5{
+    padding-bottom: 10%;
+  }
+
+
+  #page-3 .btn, #page-4 .btn, #page-5 .btn{
+    height: 50px;
+    width: 280px;
+    border: 3px solid transparent;
+    border-radius: 30px;
+    font-family: SemiBold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: .55rem .75rem;
+  }
+  #page-1 .btn{
+    height: 60px;
+    width: 600px;
+    padding: .9rem .75rem;
+  }
+
+  #page-1 .btn-outline-primary, #page-3 .btn-outline-primary, #page-4 .btn-outline-primary, #page-5 .btn-outline-primary{
+   color: #1F9DF4;
+   border-color: #1F9DF4;
+   transition: all .3s;
+  }
+  #page-1 .btn-outline-primary:hover, #page-3 .btn-outline-primary:hover, #page-4 .btn-outline-primary:hover, #page-5 .btn-outline-primary:hover{
+   background-color: #1F9DF4;
+   border-color: #1F9DF4;
+   color: white;
+  }
+
+
+  h1{
+    font-family: Bold;
+    font-size: 32px;
+    color: #1F9DF4;
+  }
+  p{
+    font-family: SemiBold;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  a{
+    text-decoration: none;
+  }
+
+
+  /*-----Loading-----*/
+
+
+  /*-----Page 1-----*/
+  #page-1 video{
+    margin: 20% 10% 0% 8%;
+    position: absolute;
+    z-index: 2;
+  }
+  #page-1 video{
+    width: 560px;
+    height: auto;
+  }
+
+  #page-1 #motion-1{
+    position: absolute;
+    left: 0;
+    top: -70px;
+    width: 100%;
+    z-index: 1;
+  }
+
+  #page-1 .col-lg-6 h1{
+    padding: 85% 10% 2% 10%;
+  }
+  #page-1 .col-lg-6 p{
+  padding: 1% 10% 2% 10%;
+  }
+  #page-1 .btn{
+    display: block;
+  }
+  #page-1 a{
+    margin: 1.5% 10%;
+  }
+
+  /*-----Page 2-----*/
+  #page-2 .card-deck{
+    margin: 0 10%;
+  }
+  #page-2 .card{
+    background-color: transparent;
+    border: 0px solid transparent;
+    display: block;
+  }
+  #page-2 .card-body{
+    padding: 15% 0%;
+  }
+  #page-2 .card-text{
+    font-family: Medium;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+  }
+
+  #page-2 h1{
+    padding: 10% 0 3% 0;
+  }
+  #page-2 #card-1 .card-img-top{
+    width: 100%;
+    margin: 50% 0% 0% 0%;
+    transition: all .3s;
+  }
+  #page-2 #card-1:hover .card-img-top{
+    width: 90%;
+    margin: 50% 0% 0% 5%;
+  }
+  #page-2 #card-2 .card-img-top{
+    width: 62.5%;
+    margin: 0% 18.75% 0% 18.75%;
+    transition: all .3s;
+  }
+  #page-2 #card-2:hover .card-img-top{
+    width: 52.5%;
+    margin: 5% 18.75% 5% 23.75%;
+  }
+
+  #page-2 #card-3 .card-img-top{
+    width: 87.5%;
+    margin: 35.5% 6.25% 0% 6.25%;
+    transition: all .3s;
+  }
+  #page-2 #card-3:hover .card-img-top{
+    width: 77.5%;
+    margin: 35.5% 6.25% 0% 11.25%;
+  }
+
+  #page-2 #card-4 .card-img-top{
+    width: 75%;
+    margin: 19.5% 12.5% 5% 12.5%;
+    transition: all .3s;
+  }
+  #page-2 #card-4:hover .card-img-top{
+    width: 65%;
+    margin: 19.5% 12.5% 5% 17.5%;
+  }
+
+  #page-2 #card-5 .card-img-top{
+    width: 87.5%;
+    margin: 22.5% 6.25% 5% 7.5%;
+    transition: all .3s;
+  }
+  #page-2 #card-5:hover .card-img-top{
+    width: 77.5%;
+    margin: 22.5% 6.25% 5% 12.5%;
+  }
+
+
+  /*-----Page 3-----*/
+  #page-3 h1{
+    padding: 15% 0% 0% 10%;
+    margin: auto;
+  }
+  #page-3 p{
+    padding: 2% 10% 0% 10%;
+    margin: auto;
+  }
+  #page-3 a{
+    margin: 4% 0% 0% 10%;
+  }
+
+  #page-3 #motion-3{
+    width: 80%;
+    position: absolute;
+    left: 13%;
+    top: 0;
+  }
+
+  /*-----Page 4-----*/
+  #page-4 h1{
+    padding: 15% 0% 0% 10%;
+    margin: auto;
+  }
+  #page-4 p{
+    padding: 2% 10% 0% 10%;
+    margin: auto;
+  }
+  #page-4 a{
+    margin: 4% 0% 0% 10%;
+  }
+
+  #page-4 #motion-4{
+    width: 77%;
+    position: absolute;
+    left: 13%;
+    top:0;
+  }
+
+  /*-----Page 5-----*/
+  #page-5 h1{
+    padding: 15% 30% 0% 10%;
+    margin: auto;
+  }
+  #page-5 p{
+    padding: 2% 30% 0% 10%;
+    margin: auto;
+  }
+  #page-5 a{
+    margin: 4% 0% 0% 10%;
+  }
+
+  #page-5 #motion-5{
+    width: 77%;
+    position: absolute;
+    left: 13%;
+    top: 0;
+  }
+
+
+  /*-----Navbar Tablet-----*/
+  .responsive-bar{
+    display: none;
+  }
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding:1% 5%;
+    box-sizing: border-box;
+    transition: .3s;
+    z-index: 99;
+  }
+  nav.white{
+    background: #F5F5F5;
+    height: 80px;
+    padding: 10px 50px;
+  }
+
+  nav .logo{
+    float: left;
+  }
+  nav .logo img{
+    padding: 8% 0 0 0;
+    width: 130px;
+    transition: .3s;
+  }
+  nav.white .logo img{
+    padding: 10px 0 0 0;
+  }
+
+  nav ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav ul li{
+    list-style: none;
+  }
+  nav ul li a{
+    line-height: 55px;
+    color: #black;
+    padding: 0 5px;
+    margin: 0 0 0 10px;
+    font-family: Bold;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    transition: .3s;
+    text-decoration: none;
+  }
+  nav.white ul li a{
+    line-height: 55px;
+  }
+
+  nav ul li a{
+    cursor: pointer;
+  }
+  nav ul li a:hover{
+    border-bottom: 3px solid #1F9DF4;
+    color: #1F9DF4;
+    text-decoration: none;
+  }
+  nav.white ul li a:hover{
+    border-bottom: 3px solid #1F9DF4;
+    color: #1F9DF4;
+    text-decoration: none;
+  }
+
+  /*-----Tentang Tablet-----*/
+  #tentang .container{
+    padding: 10% 5% 115% 5%;
+  }
+
+  #tentang h1{
+    font-size: 28px;
+    font-family: Bold;
+    color: #1F9DF4;
+    margin-bottom: 5%;
+  }
+  #tentang p{
+    font-size: 16px;
+    font-family: Medium;
+    color: black;
+    text-align: justify;
+  }
+
+  /*-----Presisi Tablet-----*/
+  #presisi #bg{
+    width: 100%;
+    height:76%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+  #presisi .card-text{
+    font-family: SemiBold;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+  }
+
+  /*-----Konstruksi-----*/
+  #konstruksi .container{
+    padding: 10% 5% 25% 5%;
+  }
+
+  #konstruksi h1{
+    font-size: 36px;
+    font-family: Bold;
+    color: #1F9DF4;
+    text-align: justify;
+    padding: 10% 0 5% 0;
+  }
+  #konstruksi p{
+    font-size: 14px;
+    font-family: Medium;
+    color: black;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  #konstruksi h3{
+    font-size: 14px;
+    font-family: Bold;
+    line-height: 1.8;
+    color: black;
+  }
+
+  /*-----footer Tablet-----*/
+  #footer #bg img{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+  }
+  #footer{
+    margin-top:-15%;
+  }
+}
+
+
+
+/*-----Responsive Smartphone-----*/
+@media (max-width: 375px){
+  #bg-1,#bg-2, #bg-3, #bg-4, #bg-5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  #bg-1, #bg-2, #bg-3, #bg-4, #bg-5{
+    left: 0;
+  }
+
+  #bg-5{
+    height: 644px;
+  }
+
+  #page-1, #page-2, #page-3, #page-4, #page-5{
+    width: 100%;
+    height: 700px;
+    max-width: 98.5%;
+  }
+  #page-2{
+    height: 1200px;
+  }
+  #page-3{
+    height: 624px;
+  }
+  #page-4{
+    height: 692px;
+  }
+  #page-5{
+    height: 644px;
+  }
+
+
+  #page-1 .btn, #page-3 .btn, #page-4 .btn, #page-5 .btn{
+    height: 40px;
+    width: 250px;
+    border: 2px solid transparent;
+    font-size: 14px;
+    padding: .48rem .6rem;
+  }
+  #page-1 .btn-outline-primary, #page-3 .btn-outline-primary, #page-4 .btn-outline-primary, #page-5 .btn-outline-primary{
+   color: #1F9DF4;
+   border-color: #1F9DF4;
+   transition: all .3s;
+  }
+  #page-1 .btn-outline-primary:hover, #page-3 .btn-outline-primary:hover, #page-4 .btn-outline-primary:hover, #page-5 .btn-outline-primary:hover{
+   background-color: #1F9DF4;
+   border-color: #1F9DF4;
+   color: white;
+  }
+
+
+  h1{
+    font-family: Bold;
+    font-size: 22px;
+    color: #1F9DF4;
+  }
+  p{
+    font-family: Medium;
+    font-size: 14px;
+    color: black;
+    letter-spacing: 0.4px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+
+  /*-----Page 1 HP-----*/
+  #page-1 video{
+    margin: 28% 2% 0% 10%;
+    position: absolute;
+    z-index: 2;
+  }
+  #page-1 video{
+    width: 280px;
+    height: auto;
+  }
+
+  #page-1 #motion-1{
+    position: absolute;
+    left: 0;
+    top: -10px;
+    width: 100%;
+    z-index: 1;
+  }
+
+  #page-1 .col-lg-6 h1{
+    padding: 95% 10% 1% 10%;
+  }
+  #page-1 .col-lg-6 p{
+    padding: 1% 10% 1% 10%;
+  }
+  #page-1 .btn{
+    display: block;
+  }
+  #page-1 a{
+    margin: 2.5% 10%;
+  }
+
+
+  /*-----Page 2 HP-----*/
+  #page-2{
+    padding: 5% 10%;
+  }
+  #page-2 h1{
+    padding: 10% 0;
+  }
+
+  #page-2 .card-deck{
+    margin: 0 0;
+  }
+  #page-2 .card{
+    background-color: transparent;
+    border: 0px solid transparent;
+  }
+  #page-2 .card-body{
+    padding: 5% 0 10% 0;
+  }
+  #page-2 .card-text{
+    font-family: Medium;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+  }
+
+  #page-2 #card-1 .card-img-top, #page2 #card-1 .card-img-top:hover{
+    width: 60%;
+    margin: 0% 0% 0% 20%;
+  }
+
+  #page-2 #card-2 .card-img-top, #page2 #card-2 .card-img-top:hover{
+    width: 22.5%;
+    margin: 0% 0% 0% 39%;
+  }
+
+  #page-2 #card-3 .card-img-top, #page2 #card-3 .card-img-top:hover{
+    width: 47.5%;
+    margin: 0% 0% 0% 26.5%;
+  }
+
+  #page-2 #card-4 .card-img-top, #page2 #card-4 .card-img-top:hover{
+    width: 35%;
+    margin: 0% 0% 0% 32.5%;
+  }
+
+  #page-2 #card-5 .card-img-top, #page2 #card-5 .card-img-top:hover{
+    width: 47.5%;
+    margin: 0% 0% 0% 32%;
+  }
+
+
+  /*-----Page 3-----*/
+  #page-3 h1{
+    padding: 20% 10% 0% 10%;
+    margin: auto;
+  }
+  #page-3 p{
+    padding: 5% 10% 0% 10%;
+    margin: auto;
+  }
+  #page-3 a{
+    margin: 7% 10% 10% 10%;
+  }
+
+  #page-3 #motion-3{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 0;
+  }
+
+  /*-----Page 4-----*/
+  #page-4 h1{
+    padding: 20% 10% 0% 10%;
+    margin: auto;
+  }
+  #page-4 p{
+    padding: 5% 15% 0% 10%;
+    margin: auto;
+  }
+  #page-4 a{
+    margin: 7% 10% 10% 10%;
+  }
+
+  #page-4 #motion-4{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 0;
+  }
+
+  /*-----Page 5-----*/
+  #page-5 h1{
+    padding: 20% 10% 0% 10%;
+    margin: auto;
+  }
+  #page-5 p{
+    padding: 5% 10% 0% 10%;
+    margin: auto;
+  }
+  #page-5 a{
+    margin: 7% 10% 10% 10%;
+  }
+
+  #page-5 #motion-5{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 0;
+  }
+
+  /*-----Navbar HP-----*/
+  .responsive-bar{
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: #F5F5F5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    z-index: 9990;
+  }
+  .responsive-bar .logo img{
+    float: left;
+    width: 100px;
+    margin: 15px 0 0 100px;
+    transition: .2s;
+  }
+  .responsive-bar.active .logo img{
+    margin: 18px 0 0 100px;
+  }
+  .responsive-bar .menu i{
+    float: left;
+    color: black;
+    margin: 0 0 0 20px;
+    padding: 0;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .2s;
+  }
+  .responsive-bar.active .menu i{
+    line-height: 60px;
+  }
+
+
+  nav.white {
+    background: #F5F5F5;
+    height: 60px;
+    padding: 0;
+  }
+  nav .logo{
+    float: none;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 50px;
+    background: green;
+    text-align: center;
+    user-select: none;
+    z-index: ;
+  }
+  nav.white .logo{
+    height: 60px;
+  }
+  nav .logo img{
+    padding: 3% 0 0 0;
+    width: 40%;
+    transition: all .3s;
+  }
+  nav.white .logo img{
+    padding: 5% 0 0 0;
+    width: 50%;
+  }
+
+  nav ul{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    top: 50px;
+    left: -250px;
+    background: #F7F7F7;
+    float: none;
+    display: block;
+    margin: 0;
+    transition: all .3s;
+  }
+  nav ul.active{
+    left: 0px;
+  }
+
+  nav.white ul{
+    top: 60px;
+  }
+  nav ul li{
+    width: 100%;
+  }
+  nav ul li a{
+    display: block;
+    padding: 2px 20px;
+    margin: 0;
+    width: 100%;
+    font-family: SemiBold;
+    font-size: 0.7rem;
+    text-align: left;
+    line-height: 30px !important;
+    border-bottom: 1px solid white;
+  }
+  nav ul li a:hover{
+    background-color: #1f9df4;
+    padding: 2px 30px;
+    border-bottom: 0 transparent;
+    color: #ffff;
+    text-decoration: none;
+  }
+  nav.white ul li a:hover{
+    background: #1f9df4;
+    padding: 2px 30px;
+    border-bottom: 0 transparent;
+    color: #ffff;
+    text-decoration: none;
+  }
+
+  /*-----Tentang-----*/
+  #tentang .container{
+    padding: 20% 10% 130% 10%;
+  }
+
+  #tentang h1{
+    font-size: 22px;
+    margin-bottom: 5%;
+  }
+  #tentang p{
+    font-size: 14px;
+  }
+
+  #tentang #motion-ttg{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  /*-----Presisi Hp-----*/
+  #presisi .container{
+    padding: 20% 5% 20% 5%;
+  }
+  #presisi h1{
+    font-size: 36px;
+    font-family: Bold;
+    color: #1F9DF4;
+    text-align: center;
+  }
+  #presisi h1{
+    margin-bottom: 5%;
+  }
+  #presisi p{
+    font-size: 14px;
+    font-family: Medium;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+  }
+  #presisi #p{
+    margin-bottom: 5%;
+  }
+  #presisi .card-text{
+    font-family: SemiBold;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+  }
+
+  /*-----Konstruksi-----*/
+  #konstruksi .container{
+    padding: 10% 10% 30% 10%;
+  }
+
+  #konstruksi h1{
+    font-size: 36px;
+    font-family: Bold;
+    color: #1F9DF4;
+    text-align: justify;
+    padding: 20% 0 5% 0;
+  }
+  #konstruksi p{
+    font-size: 14px;
+    font-family: Medium;
+    color: black;
+    text-align: justify;
+    line-height: 1.6;
+  }
+
+  #list-1, #list-2, #list-3, #list-4, #list-5{
+    padding: 10%;
+    margin: 10% 2%;
+  }
+
+  #konstruksi img{
+    max-width: 100%;
+  }
+  #konstruksi h2{
+    font-size: 14px;
+    font-family: Medium;
+    line-height: 1.8;
+    text-align: left;
+  }
+  #konstruksi h3{
+    font-size: 14px;
+    font-family: Bold;
+    line-height: 1.8;
+    color: black;
+  }
+   #konstruksi .btn{
+    height: 35px;
+    width: 150px;
+    font-size: 12px;
+    padding: .3rem .75rem;
+  }
+
+  /*-----Footer HP-----*/
+  #footer{
+    margin-top:-10%;
+  }
+  #footer #bg img{
+    position: absolute;
+    left: 0px;
+    width: auto;
+    height: 650px;
+    z-index: -1;
+  }
+  #footer .row .fot img{
+    width: 150px;
+    margin-top: 20px;
+  }
+  #footer #fot2, #footer #fot3{
+    padding-top: 5%;
+  }
+}

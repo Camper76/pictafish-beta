@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" charset="utf-8"></script>
+
+  <script type="text/javascript">
+    $(function(){
+      $("#navbar").load("navbar.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+
+  <title>Manajemen Akuakultur</title>
+</head>
+<body>
+<div id="loading"></div>
+<div id="navbar"></div>
+  <section id="presisi">
+    <img src="page 7/bg.png" id="bg" alt="">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <h1>Precision Aquaculture Management</h1>
+          <p id="p">Banyak kasus gagal panen diakibatkan manajemen yang buruk seperti pengukuran kualitas air yang kurang presisi, pemberian pakan berlebih, pengelolaan IPAL yang buruk, hingga perawatan aset yang tidak standart. Pictafish menawarkan solusi untuk manajemen budidaya udang yang presisi dengan adanya teknologi AI dan IoT untuk menunjang budidaya agar lebih menguntungkan.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="card-deck">
+           <div class="card">
+             <img src="page 7/6.png" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Water Quality Management</p>
+             </div>
+           </div>
+           <div class="card">
+             <img src="page 7/7.png" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Asset & Energy Management</p>
+             </div>
+           </div>
+           <div class="card">
+             <img src="page 7/8.png" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Waste Water Management</p>
+             </div>
+           </div>
+           <div class="card">
+             <img src="page 7/9.png" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Monitoring & Controlling</p>
+             </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<div id="footer"></div>
+
+<script src="loading/lottie.js" charset="utf-8"></script>
+<script src="index.js" charset="utf-8"></script>
+
+<script>
+  var loading = document.getElementById('loading');
+
+  window.addEventListener('load',function(){
+    loading.style.display="none"
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<div class="responsive-bar">
+  <div class="menu">
+    <i class="material-icons">menu</i>
+  </div>
+  <div class="logo">
+    <a href="index.html"><img src="page 1/1.svg" alt=""></a>
+  </div>
+</div>
+<nav>
+  <div class="logo">
+    <a href="index.html"><img src="page 1/1.svg" alt=""></a>
+  </div>
+  <ul>
+    <li><a href="tentang.html">Tentang Pictafish</a></li>
+    <li><a href="#">Produk Lain</a></li>
+    <li><a href="#footer">Hubungi Kami</a></li>
+  </ul>
+</nav>
+
+<script type="text/javascript">
+  $(window).on('scroll', function(){
+    if($(window).scrollTop()){
+      $('nav').addClass('white');
+      $('.responsive-bar').addClass('active');
+    }
+    else{
+      $('nav').removeClass('white');
+      $('.responsive-bar').removeClass('active')
+    }
+  })
+  $(document).ready(function(){
+    $('.menu i').click(function(){
+      $('nav ul').toggleClass('active')
+    })
+  })
+</script>
